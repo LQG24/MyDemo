@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="@drawable/bg_slide_menu_header"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:padding="16dp"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/ic_photo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Mydemo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="501923913@qq.com"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+</LinearLayout>

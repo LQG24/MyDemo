@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Gank.Io"/>
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_event"
+            android:title="CustomWidget"/>
+        <item
+            android:id="@+id/nav_my_focus"
+            android:icon="@drawable/ic_headset"
+            android:title="Rxjava"/>
+        <item
+            android:id="@+id/nav_foucs_me"
+            android:icon="@drawable/ic_forum"
+            android:title="MaterialDesign"/>
+
+        <item
+            android:id="@+id/nav_article"
+            android:checkable="true"
+            android:icon="@drawable/ic_discuss"
+            android:title="AqualandFace"/>
+    </group>
+
+    <item android:title="About">
+        <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:checkable="true"
+                android:icon="@drawable/ic_about"
+                android:title="关于我"/>
+        </menu>
+    </item>
+
+</menu>
